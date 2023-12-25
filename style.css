@@ -1,0 +1,288 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+p {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+}
+nav {
+    font-family: 'Varela Round', sans-serif;
+}
+h2 {
+    font-family: 'Concert One', sans-serif;
+    font-size: 30px;
+}
+h3 {
+    font-family: 'Concert One', sans-serif;
+    font-size: 22px;
+}
+body {
+    
+    background-image: url(assent/MasajesSosiegoFondo.png); 
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+header{
+    background-color: black;
+    color: #E9EBF8;
+    /* padding: 15px; */
+    text-align:center
+}
+
+/*barra navegacion  */
+header > img {
+    width: 100px;    
+}
+header > nav > ul {
+    list-style-type: none;
+    background-color: #E9EBF8;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+header > nav > ul > li > a {
+    padding: 14px 16px; 
+  
+    display: block;
+    text-decoration: none;
+    color: black;
+    
+}
+
+header > nav > ul > li > a:hover {
+    background-color: #B4B8C5;
+}
+/* mereces */
+
+.mereces {
+    text-align: center;
+    background-color: #E2B841;
+    width: 100%;
+    padding: 8px;
+        
+} 
+main {
+    position: relative;
+    top: 150px;
+
+}
+/* sobre nosotros */
+  .sobrenosotros {
+    display: center;
+    text-align: center;
+    padding: 20px;
+    padding-left: 0px;
+    padding-top: 70px;
+} 
+    
+    .sobre {
+        text-align: center;
+        display:flex;
+        padding: 20px;
+        padding-left: 0px;
+       
+    }
+.sobre > div {
+     display: inline-flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   border: 10px solid#E2B841;
+    padding: 10px 0;
+    margin: 40px;
+    border-radius: 40px;
+    width: 100%;
+    text-align: center;
+    color: #000000; 
+    background-color: #E9EBF8;
+  
+
+
+} 
+
+/* seccion productos */
+
+.productos {
+    text-align: center;
+    display:center;
+    padding: 20px;
+    padding-left: 0px;
+    
+   
+}
+.nuestros{
+    text-align: center;
+    display:flex;
+    padding: 20px;
+    
+}
+.nuestros > div {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 10px solid #E2B841;
+    padding: 10px 0; 
+    border-radius: 40px;
+    width: 100%;
+    text-align: center;
+    color: #000000; 
+    background-color: #E9EBF8;
+        
+}
+
+ .nuestros > div > article {
+    border: 1px solid #000000;
+    padding: 10px; 
+    border-radius: 40px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+   
+    color: #000000;
+}
+.nuestros > div > article > div > img {
+    width: 100px;
+    margin-top: 10px;
+}
+
+
+.nuestros > div > article > div > p {
+    margin: 10px;
+}
+
+/* Interacción */
+.interaccion {
+    display: center;
+    text-align: center;
+    padding: 20px;
+    padding-left: 0px;
+    padding-top: 40px;
+} 
+    
+    .interac {
+        text-align: center;
+        display:flex;
+        padding: 20px;
+        padding-left: 0px;
+       
+    }
+.interac > div {
+     display: inline-flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   border: 10px solid#E2B841;
+    padding: 10px 0;
+    margin: 40px;
+    border-radius: 40px;
+    width: 100%;
+    text-align: center;
+    color: #000000; 
+    background-color: #E9EBF8;
+
+} 
+
+/* botones */
+ button {
+    background-color: #E9EBF8;
+    color: #000000;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.botonwpp > a > img {
+    width: 60px;
+    padding: 5px;
+    margin: 1px;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 40px;
+    right: 25px;
+} 
+.botonig > a > img {
+    width: 60px;
+    padding: 5px;
+    margin: -1px;
+    box-sizing: border-box;
+    position:fixed;
+    bottom: 100px;
+    right: 28px;
+    
+ }
+
+.subtitulo {
+    flex-direction:
+}
+
+/* formulario */
+.container {
+    width: 400px;
+    display: none;
+}
+.form-process {
+    background-color: #E9EBF8;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #B4B8C5 ;
+}
+.step {
+    display:none
+}
+.step > h2 {
+    margin-bottom: 20px;
+}
+.step > button {
+    background-color: #B4B8C5;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.step > button:hover {
+    background-color: #E9EBF8;
+}
+input{
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;;
+}
+/* footer */
+footer > ul > li {
+    list-style-type: none;
+    display: block;
+   }
+   footer > ul > li > img {
+    height: 20px;
+   }
+   footer {
+    background-color: black;
+    color: #E9EBF8;
+    text-align:center;
+    position: relative;
+    width: 100%;
+    margin-top: 100%;
+    text-align: center;
+    bottom:0;
+    z-index: 1;
+   }
+
+   
